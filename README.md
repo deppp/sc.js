@@ -36,7 +36,7 @@ SC.add(keymap, document.body, options);
 You can set `nomatch` option to fire when no matches were found in any
 keymaps.
 
-```
+```javascript
 SC.add(keymap, document.body, {
     nomatch: function (ev, code, chr) {
         // nothing matched, do something with event!
@@ -46,7 +46,7 @@ SC.add(keymap, document.body, {
 
 Any number of keymaps can be connected to element.
 
-```
+```javascript
 SC.add(keymap1, document.body);
 SC.add(keymap2, document.body);
 ```
@@ -54,7 +54,7 @@ SC.add(keymap2, document.body);
 You can get a listener function that you need to manually attach to an
 event listener.
 
-```
+```javascript
 var f = SC.attach(keymap, options);
 document.body.addEventListener("keypress", f);
 ```
