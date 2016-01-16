@@ -1,0 +1,28 @@
+{
+  "name": "sc",
+  "authors": [
+    "Mikhail Malyuk <mikhail.maluyk@gmail.com>"
+  ],
+  "description": "Handle keyboard events",
+  "main": "src/sc.js",
+  "moduleType": [],
+  "keywords": [
+    "shortcut",
+    "keyboard",
+    "keymap",
+    "key bindings",
+    "events"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "qunit": "~1.20.0"
+  }
+}
